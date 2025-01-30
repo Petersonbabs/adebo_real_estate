@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "type": "new_property",
+      "message": "A new apartment in Lekki is now available for rent.",
+      "timestamp": "2025-01-30T12:00:00Z",
+      "isRead": false
+    },
+    {
+      "id": "2",
+      "type": "price_update",
+      "message": "Price update: 4-bedroom duplex in Ikeja now costs ₦50M.",
+      "timestamp": "2025-01-30T12:30:00Z",
+      "isRead": false
+    },
+    {
+      "id": "3",
+      "type": "booking_request",
+      "message": "You have a new booking request for the 3-bedroom flat in Abuja.",
+      "timestamp": "2025-01-30T13:00:00Z",
+      "isRead": false
+    },
+    {
+      "id": "4",
+      "type": "property_sold",
+      "message": "Congratulations! Your listing for a 2-bedroom apartment in VI has been sold.",
+      "timestamp": "2025-01-30T14:00:00Z",
+      "isRead": true
+    },
+    {
+      "id": "5",
+      "type": "system_alert",
+      "message": "Your premium subscription will expire in 3 days. Renew now to continue receiving leads.",
+      "timestamp": "2025-01-30T15:00:00Z",
+      "isRead": false
+    }
+  ]
+  
