@@ -1,17 +1,38 @@
-import React, { useState } from 'react'
-import { PrimaryButton } from '../commons/Buttons'
-import NotificationsList from '../../_features/_notifications/components/NotificationsList'
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
+import "../../styles/navbar.css";
 
 const Navbar = () => {
-  const [numOfNotification, setyNumOfNotifications] = useState(9)
   return (
-    <div style={{display: "flex", justifyContent: "space-between", alignItems:"center", padding: "1rem"}}>
-        <h1>Logo</h1>
-        <PrimaryButton text={'Start for Free'}/>
-        <Link to={'/notifications'}>Notifications</Link>
-    </div>
-  )
-}
+    <div className="navbar">
+      <div className="wrapper">
+        <div className="left">
+          {/* logo */}
+          <Link to="/" className="logo">
+            <i class="fa-solid fa-house"></i>
+            <span>AdeboProperty</span>
+          </Link>
 
-export default Navbar
+          <div className="menu-items">
+            <Link to="/">Home</Link>
+            <Link to="/properties">Properties</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
+          </div>
+        </div>
+
+        {/* right */}
+        <div className="right">
+          <Link to="/post-property" className="btn">
+            Post property
+          </Link>
+          <div>
+            <Link to="/sign">Signup</Link>
+            <Link to="/login">Login</Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;

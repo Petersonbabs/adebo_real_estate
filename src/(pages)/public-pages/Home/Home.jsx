@@ -1,10 +1,15 @@
-import React, { useContext, useEffect } from 'react'
-import { authContext } from '../../../contexts/AuthContext'
+import Hero from "./components/Hero.jsx"
+import SearchForm from "./components/SearchForm.jsx"
+import "./style/home.css"
 
 const Home = () => {
         
   return (
-    <div>Home</div>
+    <div style={{
+    paddingTop: "4rem"}}>
+      <Hero />
+      <SearchForm />
+    </div>
   )
 }
 

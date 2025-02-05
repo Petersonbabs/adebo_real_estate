@@ -1,8 +1,10 @@
-import React from 'react'
+import ImagesData from "../../../../data/Images"
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div className="hero">
+      <img src={ImagesData.HeroImage} alt="Hero image" />
+    </div>
   )
 }
 

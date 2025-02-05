@@ -1,0 +1,22 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.btn{
+    background-color: var(--purple);
+    transition: var(--transition);
+    color: #fff;
+    text-transform: capitalize;
+    font-size: var(--body);
+    border-radius: var(--radius);
+}
+
+.btn:hover{
+    color: #fff !important;
+    background-color: var(--light-blue);
+}
+
+a{
+    text-decoration: none;
+    color: var(--purple);
+}

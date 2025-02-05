@@ -1,0 +1,75 @@
+.navbar {
+  padding: 1rem 0;
+  position: fixed;
+  background-color: var(--white);
+  width: 100%;
+  z-index: 99;
+}
+
+.navbar .wrapper {
+  width: 95vw;
+  margin: auto;
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .wrapper .left {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 1.2rem;
+  font-family: fantasy;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+}
+
+.navbar .menu-items a,
+.navbar .right a {
+  transition: var(--transition);
+  font-size: var(--sm);
+  font-weight: var(--bold);
+}
+
+.navbar .menu-items a:hover, 
+.navbar .right a:hover {
+  color: var(--light-blue);
+}
+
+.navbar .logo i {
+  background-color: var(--purple);
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* menu items*/
+
+.navbar .menu-items {
+  display: flex;
+  gap: 1.5rem;
+  font-size: var(--sm);
+  font-weight: var(--bold);
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.right > div {
+  display: flex;
+  gap: 1rem;
+}

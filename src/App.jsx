@@ -1,29 +1,22 @@
-import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navbar from "./components/layouts/Navbar";
-import Footer from "./components/layouts/Footer";
-import Signup from "./(pages)/public-pages/Signup/Signup";
-import AuthProvider from "./contexts/AuthContext";
-import Home from "./(pages)/public-pages/Home/Home";
-import NotificationPage from "./(pages)/private-pages/notifications/Notification";
-import NotificationProvider from "./contexts/NotificationContext";
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Navbar from "./components/layouts/Navbar"
+import Home from "./(pages)/public-pages/Home/Home"
+import PageNotFound from "./components/commons/PageNotFound"
+import Properties from "./(pages)/public-pages/Properties/Properties"
 
 const App = () => {
   return (
     <BrowserRouter>
-      <Navbar />
-      <AuthProvider>
-        <NotificationProvider>
-          <Routes>
-            {/* <Route path='/signup' element={<Signup />}/> */}
-            {/* <Route path='/' element={<Home />}/> */}
-            <Route path="/notifications" element={<NotificationPage />} />
-          </Routes>
-        </NotificationProvider>
-      </AuthProvider>
-      {/* <Footer /> */}
-    </BrowserRouter>
-  );
-};
+    <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/properties" element={<Properties />} />
 
-export default App;
+        {/*  */}
+        <Route path="*" element={<PageNotFound />}/>
+      </Routes>
+    </BrowserRouter>
+  )
+}
+
+export default App

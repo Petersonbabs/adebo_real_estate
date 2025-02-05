@@ -1,0 +1,21 @@
+:root{
+    --purple: #330066;
+    --dark-purple: #1f013d;
+    --light-purple: #5C3385;
+
+    --light-blue: #4D89FF;
+    --white: #fff;
+
+    --sm: 12px;
+    --body: 14px;
+    --md: 18px;
+    --text-lg: 50px;
+    --radius: 5px;
+
+    --bold: 600;
+
+    --transition: all ease 150ms;
+
+    /* sizes */
+    --max-width: 1190px;
+}

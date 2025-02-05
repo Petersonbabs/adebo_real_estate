@@ -1,0 +1,97 @@
+.hero{
+    height: 70vh;
+    position: relative;
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.hero::after{
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.231);
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+/*
+ ================ 
+ ================ 
+ SEARCH FORM
+ ================ 
+ ================ 
+ */
+
+ .search-form{
+     width: 90vw;
+     margin: auto;
+     max-width: 900px;
+     transform: translateY(-10rem);
+     color: var(--white);
+
+     h1{
+        text-align: center;
+        font-size: var(--text-lg);
+        text-shadow: 0 0 5px rgba(0, 0, 0);
+        font-weight: var(--bold);
+        word-spacing: 5px;
+     }
+     
+     .search{
+         padding: 1rem;
+         border-radius: 10px;
+         margin-top: 5px;
+        background-color: #363D5599;
+        padding-bottom: 3em;
+
+        .top{
+            display: flex;
+            justify-content: center;
+            gap: 1rem   ;
+
+            span{
+                padding:.5rem 1rem;
+                font-size: var(--md);
+                font-weight: var(--bold);
+            }
+
+            span.active{
+                border-bottom: 2px solid white;
+            }
+        }
+
+        form{
+            background-color: var(--white);
+            padding: .56rem;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            i{
+                color: black;
+                font-size: var(--md);
+            }
+
+            input{
+                border: none;
+                outline: none;
+                flex: 1;
+            }
+        }
+    }
+ }
+
+ /*
+ ================ 
+ ================ 
+ END OF SEARCH FORM
+ ================ 
+ ================ 
+ */
