@@ -16,7 +16,37 @@
     background-color: var(--light-blue);
 }
 
+.btn-outline{
+    border: 1px solid var(--purple);
+    padding: .5rem;
+    border-radius: var(--radius);
+    background-color: white;
+    transition: all 150ms ease;
+}
+
+.btn-outline:hover{
+    background-color: var(--purple);
+    color: white;
+}
+
+.btn-full{
+    display: block;
+    width: 100%;
+}
+
 a{
     text-decoration: none;
     color: var(--purple);
+}
+
+.primary-max{
+    width: 95vw;
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+.small-max{
+    margin: auto;
+    width: 95vw;
+    max-width: 400px;
 }

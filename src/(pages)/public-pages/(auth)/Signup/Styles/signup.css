@@ -1,0 +1,100 @@
+.signup-wrapper{
+    margin: 4rem auto;
+
+    h2{
+        color: var(--purple);
+        font-weight: var(--bold);
+    }
+
+    p{
+        padding-top: 1rem;
+        font-size: var(--md);
+        color: var(--purple);
+
+        a{
+            font-weight: var(--bold);
+            text-decoration: underline;
+        }
+    }
+
+    .socialbtn{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        button{
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            justify-content: center;
+        }
+    }
+
+    form{
+        margin-top: 2rem;
+    }
+    
+    .names{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    input{
+        display: block;
+        width: 100%;
+        padding: .5rem 1rem;
+        margin: 5px 0;
+        border-radius: 5px;
+        border: 1px solid var(--purple);
+    }
+
+    .phone-section{
+        display: flex;
+        margin-top: 1rem;
+        gap: 1rem;
+        align-items: center;
+        
+        input{
+            margin-top:  0;
+        }
+        & > div{
+            display: grid;
+            gap: 10px;
+        }
+
+        label{
+            font-size: .8rem;
+        }
+
+        select{
+            padding: .8rem;
+            border-radius: 5px;
+           
+            /* border: none; */
+        }
+    }
+
+    .pass-input{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    i{
+        cursor: pointer;
+    }
+
+    button{
+        margin: auto;
+        display: block;
+        padding: .5rem 2.5rem;
+        margin-top: 1rem;
+    }
+
+    
+    
+}
+
+button:disabled{
+    cursor: not-allowed;
+}

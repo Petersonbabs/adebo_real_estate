@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "Ocean View Villa",
+      "location": "Miami, FL",
+      "price": 1200000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "size_sqft": 3500,
+      "type": "Villa",
+      "status": "For Sale",
+      "image_url": "https://example.com/ocean-villa.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Downtown Loft",
+      "location": "New York, NY",
+      "price": 850000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size_sqft": 1800,
+      "type": "Loft",
+      "status": "For Sale",
+      "image_url": "https://example.com/downtown-loft.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Luxury Penthouse",
+      "location": "Los Angeles, CA",
+      "price": 2200000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "size_sqft": 5000,
+      "type": "Penthouse",
+      "status": "For Rent",
+      "image_url": "https://example.com/luxury-penthouse.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Suburban Family Home",
+      "location": "Austin, TX",
+      "price": 650000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "size_sqft": 2500,
+      "type": "House",
+      "status": "For Sale",
+      "image_url": "https://example.com/suburban-home.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mountain Retreat",
+      "location": "Denver, CO",
+      "price": 950000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "size_sqft": 4000,
+      "type": "Cabin",
+      "status": "For Rent",
+      "image_url": "https://example.com/mountain-retreat.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Modern Condo",
+      "location": "Chicago, IL",
+      "price": 600000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size_sqft": 1500,
+      "type": "Condo",
+      "status": "For Sale",
+      "image_url": "https://example.com/modern-condo.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Beachfront Bungalow",
+      "location": "San Diego, CA",
+      "price": 1400000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "size_sqft": 2800,
+      "type": "Bungalow",
+      "status": "For Rent",
+      "image_url": "https://example.com/beachfront-bungalow.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Country Farmhouse",
+      "location": "Nashville, TN",
+      "price": 750000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "size_sqft": 3200,
+      "type": "Farmhouse",
+      "status": "For Sale",
+      "image_url": "https://example.com/country-farmhouse.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Skyline Apartment",
+      "location": "Seattle, WA",
+      "price": 890000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size_sqft": 1700,
+      "type": "Apartment",
+      "status": "For Rent",
+      "image_url": "https://example.com/skyline-apartment.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Historic Townhouse",
+      "location": "Boston, MA",
+      "price": 980000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "size_sqft": 2600,
+      "type": "Townhouse",
+      "status": "For Sale",
+      "image_url": "https://example.com/historic-townhouse.jpg"
+    }
+  ]
+  

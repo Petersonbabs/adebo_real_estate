@@ -1,0 +1,13 @@
+[
+    { "name": "Nigeria", "phone_code": "+234" },
+    { "name": "Egypt", "phone_code": "+20" },
+    { "name": "South Africa", "phone_code": "+27" },
+    { "name": "Kenya", "phone_code": "+254" },
+    { "name": "Ghana", "phone_code": "+233" },
+    { "name": "Ethiopia", "phone_code": "+251" },
+    { "name": "Tanzania", "phone_code": "+255" },
+    { "name": "Morocco", "phone_code": "+212" },
+    { "name": "Algeria", "phone_code": "+213" },
+    { "name": "Senegal", "phone_code": "+221" }
+  ]
+  

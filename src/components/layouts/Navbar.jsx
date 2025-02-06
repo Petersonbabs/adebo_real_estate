@@ -26,7 +26,7 @@ const Navbar = () => {
             Post property
           </Link>
           <div>
-            <Link to="/sign">Signup</Link>
+            <Link to="/signup">Signup</Link>
             <Link to="/login">Login</Link>
           </div>
         </div>
