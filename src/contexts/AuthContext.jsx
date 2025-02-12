@@ -25,7 +25,6 @@ const AuthProvider = ({children})=>{
                     "Content-Type" : "application/json"
                 }
             })
-            console.log(response)
             const data = await response.json()
             console.log(data);
             if(data.status == "success"){

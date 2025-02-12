@@ -1,0 +1,98 @@
+{
+    "count": 3,
+    "status": "success",
+    "results": [
+        {
+            "_id": "67a9efbedb7adcd153e8441c",
+            "title": "Bangalow 3-Bedroom Apartment",
+            "description": "A modern 3-bedroom apartment with a spacious living room, kitchen, and balcony.",
+            "price": 50000,
+            "location": "Banana Island",
+            "state": "Lagos",
+            "city": "Ikoyi",
+            "images": [
+                "https://images.propertypro.ng/large/3-bedroom-apartment-uRCgVuKuIW0rJZZXSxLu.jpeg",
+                "https://images.propertypro.ng/large/luxury-3bedroom-penthouse-with-balcony-pool-and-gym-HYXYOQj7u4kgfGmFcnMm.jpg",
+                "https://images.propertypro.ng/large/smart-fully-detached-duplex-in-ibara-gra-abeokuta-8O4qMJmHszsptxKr9Mgf.png"
+            ],
+            "type": "land",
+            "purpose": "rent",
+            "rooms": 6,
+            "features": [
+                "Standby Security"
+            ],
+            "status": "available",
+            "agent": {
+                "_id": "67a9eed022d9de841987628f",
+                "firstName": "Joe",
+                "email": "joe5@gmail.com",
+                "phone": "9944494490",
+                "profilePicture": "",
+                "isVerified": false
+            },
+            "createdAt": "2025-02-10T12:23:26.261Z",
+            "updatedAt": "2025-02-10T12:23:26.261Z",
+            "__v": 0
+        },
+        {
+            "_id": "67a9f21ff9a5af645203742f",
+            "title": "Bangalow 3-Bedroom Apartment",
+            "description": "A modern 3-bedroom apartment with a spacious living room, kitchen, and balcony.",
+            "price": 50000,
+            "location": "Banana Island",
+            "state": "Lagos",
+            "city": "Ikoyi",
+            "images": [
+                "https://images.propertypro.ng/large/3-bedroom-apartment-uRCgVuKuIW0rJZZXSxLu.jpeg",
+                "https://images.propertypro.ng/large/luxury-3bedroom-penthouse-with-balcony-pool-and-gym-HYXYOQj7u4kgfGmFcnMm.jpg",
+                "https://images.propertypro.ng/large/smart-fully-detached-duplex-in-ibara-gra-abeokuta-8O4qMJmHszsptxKr9Mgf.png"
+            ],
+            "type": "land",
+            "purpose": "rent",
+            "rooms": 6,
+            "features": [
+                "Standby Security"
+            ],
+            "status": "available",
+            "agent": {
+                "_id": "67a9eed022d9de841987628f",
+                "firstName": "Joe",
+                "email": "joe5@gmail.com",
+                "phone": "9944494490",
+                "profilePicture": "",
+                "isVerified": false
+            },
+            "createdAt": "2025-02-10T12:33:35.093Z",
+            "updatedAt": "2025-02-10T12:33:35.093Z",
+            "__v": 0
+        },
+        {
+            "_id": "67ac7745130e15174763ebaf",
+            "title": "Luxury 3-Bedroom Apartment",
+            "description": "A modern 3-bedroom apartment with a spacious living room, kitchen, and balcony.",
+            "price": 50000000,
+            "location": "Banana Island",
+            "state": "Lagos",
+            "city": "Ikoyi",
+            "images": [
+                "https://images.propertypro.ng/large/3-bedroom-apartment-uRCgVuKuIW0rJZZXSxLu.jpeg",
+                "https://images.propertypro.ng/large/luxury-3bedroom-penthouse-with-balcony-pool-and-gym-HYXYOQj7u4kgfGmFcnMm.jpg",
+                "https://images.propertypro.ng/large/smart-fully-detached-duplex-in-ibara-gra-abeokuta-8O4qMJmHszsptxKr9Mgf.png"
+            ],
+            "type": "apartment",
+            "purpose": "rent",
+            "rooms": 3,
+            "features": [
+                "swimming pool",
+                "24/7 electricity",
+                "gym",
+                "CCTV security"
+            ],
+            "status": "available",
+            "agent": null,
+            "createdAt": "2025-02-12T10:26:13.823Z",
+            "updatedAt": "2025-02-12T10:26:13.823Z",
+            "__v": 0
+        }
+    ]
+}

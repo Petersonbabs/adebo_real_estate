@@ -1,0 +1,11 @@
+.filter-header{
+    display: flex;
+    padding: 1rem;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
+    border-top: 1px solid;
+    gap: 1rem;
+
+    select{
+        
+    }
+}
