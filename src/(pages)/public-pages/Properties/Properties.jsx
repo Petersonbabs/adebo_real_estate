@@ -6,15 +6,16 @@ import ResultData from "../../../data/result.json"
 const Properties = () => {
   const [searchParams] = useSearchParams()
   const searchTerm = searchParams.get("search")
-  const [searchWord, setSearchWord] = useState(searchTerm)
+  const [searchWord, setSearchWord] = useState(searchTerm | "")
   const navigation = useNavigate()
   const [searching, setSearching] = useState(false)
   const [searchResults, setSearchResults] = useState([])
-
+  const baseUrl = import.meta.env.VITE_BASE_URL
+  console.log(baseUrl);
   useEffect(()=>{
-    if(searchTerm){
+    // if(searchTerm){
       searchProperties()
-    }
+    // }
   },[searchTerm])
 
   const handleSearchInput = (e)=>{
@@ -34,7 +35,7 @@ const Properties = () => {
   const searchProperties = async (e)=>{
     setSearching(true)
     try {
-      const response = await fetch(`http://localhost:4001/api/v1/property/search?search=${searchWord}`)
+      const response = await fetch(`${baseUrl}/property/search?search=${searchWord}`)
       const result = await response.json()
       console.log(result);
       setSearchResults(result.results)
