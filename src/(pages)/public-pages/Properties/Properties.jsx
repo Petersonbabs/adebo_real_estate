@@ -152,7 +152,7 @@ const Properties = () => {
                 <img src={"https://images.propertypro.ng/large/3-bedroom-apartment-uRCgVuKuIW0rJZZXSxLu.jpeg"} alt="" />
               </div>
               <div className="details">
-                  <h2>Bangalow 3-Bedroom Apartment</h2>
+                  <h2>{property.title}</h2>
                   <span>{property.location}</span>
 
               </div>
